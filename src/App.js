@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+
+import "./App.css";
+
+import Header from "./components/Header/Header";
+import Hero from "./components/Ul/Hero";
+import Counter from "./components/Ul/Counter";
+import Services from "./components/Ul/Services";
+import About from "./components/Ul/About";
+import Team from "./components/Ul/Team";
+import Blog from "./components/Ul/Blog";
+import Testimonial from "./components/Ul/Testimonial";
+import Newsletter from "./components/Ul/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
+  const [theme, setTheme] = useState("");
+
+  const toggleTheme = () => {
+    theme === "" ? setTheme("light-theme") : setTheme("");
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header theme={theme} toggleTheme={toggleTheme} />
+      <Hero theme={theme} />
+      <Counter />
+      <Services />
+      <About />
+      <Team />
+      <Blog />
+      <Testimonial />
+      <Newsletter />
+      <Footer />
+    </>
   );
 }
 
