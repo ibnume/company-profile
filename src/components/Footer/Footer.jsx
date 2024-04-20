@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer__wrapper">
           <div className="footer__logo">
-            <h2>Si Doel</h2>
+            <h2>Si Doel Agency</h2>
             <p className="description">Grow with us</p>
 
             <p className="small__text description">
