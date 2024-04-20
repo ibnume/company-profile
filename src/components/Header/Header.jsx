@@ -67,7 +67,7 @@ const Header = ({ theme, toggleTheme }) => {
       <div className="container">
         <div className="nav__wrapper">
           <div className="logo">
-            <h2>Digency</h2>
+            <h2>Si Doel</h2>
           </div>
 
           {/* Navigation ==================== */}

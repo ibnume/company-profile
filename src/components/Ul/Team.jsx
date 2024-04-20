@@ -4,26 +4,27 @@ import "../../styles/team.css";
 import team01 from "../../images/team-01.png";
 import team02 from "../../images/team-02.png";
 import team03 from "../../images/team-03.png";
+import team04 from "../../images/team-04.png";
 
 const teamMembers = [
   {
     imgUrl: team01,
-    name: "Nurul Arifyanto",
+    name: "Si Doel",
     position: "Product Developer",
   },
   {
     imgUrl: team02,
-    name: "Lindas Walton",
+    name: "Atun",
     position: "Front-End Developer",
   },
   {
     imgUrl: team03,
-    name: "Harry Martin",
+    name: "Mandra",
     position: "Product Designer",
   },
   {
-    imgUrl: team02,
-    name: "Lisa Cooper",
+    imgUrl: team04,
+    name: "Zaenab",
     position: "CEO & Sr Developer",
   },
 ];
