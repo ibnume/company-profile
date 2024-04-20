@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.newsletter__content {
+  padding: 1rem;
+}
+
 .newsletter__content,
 .newsletter__form {
   width: 50%;
