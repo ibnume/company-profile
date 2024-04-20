@@ -8,7 +8,7 @@ import team03 from "../../images/team-03.png";
 const teamMembers = [
   {
     imgUrl: team01,
-    name: "Courtny Hurry",
+    name: "Nurul Arifyanto",
     position: "Product Developer",
   },
   {
