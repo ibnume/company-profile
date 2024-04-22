@@ -42,6 +42,10 @@
   font-weight: 500;
 }
 
+.light-theme .customer__name {
+  color: var(--primary-color);
+}
+
 @media only screen and (max-width: 992px) {
   .slider__content-top h2 {
     font-size: 1.5rem;
